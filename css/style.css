@@ -1,0 +1,27 @@
+button{
+    background-color: teal;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    display: block;
+}
+label{
+    display: block;
+    padding-bottom: 10px;
+}
+input{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 15rem;
+}
+textarea{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 15rem;
+    min-height: 10rem;
+}
+button:hover .heart{
+    color: red;
+}
